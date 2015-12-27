@@ -1,0 +1,7 @@
+# ignore contents of bower_components
+bower_components/*
+
+# unignore Materialize folder
+!bower_components/Materialize
+bower_components/Materialize/*
+!bower_components/Materialize/dist

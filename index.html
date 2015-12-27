@@ -1,35 +1,81 @@
 <!doctype html>
 <html>
-	<head>
-		<title>HexMonad Main Page</title>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-		
-		<style type="text/css">
-			.fullscreenDiv {
-				background-color: #009688;
-				width: 100%;
-				height: auto;
-				bottom: 0px;
-				top: 0px;
-				left: 0;
-				position: absolute;
-			}
-			.center {
-				position: absolute;
-				width: 300px;
-				height: 50px;
-				top: 50%;
-				left: 50%;
-				margin-top: -25px;
-				margin-left: -50px;
-				font-size: 22pt;
-				color: #ffffff;
-			}
-		</style>
-	</head>
-	<body>
-		<div class='fullscreenDiv'>
-			<div class="center">Hello World!</div>
+    <head>
+	<title>HexMonad Main Page</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<!--Let browser know website is optimized for mobile-->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+	
+	<!--Import Google Icon Font-->
+	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!--Import materialize.css-->
+	<link type="text/css" rel="stylesheet" href="bower_components/Materialize/dist/css/materialize.min.css"  media="screen,projection"/>
+	<link href="home/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    </head>
+    
+    <body>
+	
+	<div class="section no-pad-bot" id="index-banner">
+	    <div class="container">
+	      <br><br>
+	      <h1 class="header center teal-text text-darken-1">HexMonad</h1>
+	      <div class="row center">
+		<h5 class="header col s12 light">Hi! Welcome to my personal page!</h5>
+	      </div>
+	      
+	      <br>
+	    </div>
+	</div>
+
+	<div class="container">
+	  <div class="section">
+
+	    <!--   Icon Section   -->
+	    <div class="row">
+	    
+	      <div class="col s12 m4">
+		<div class="icon-block">
+		  <h2 class="center teal-text text-lighten-2"><i class="material-icons">email</i></h2>
+		  <h5 class="center"><a class="black-text" href="mailto:hexmonad@gmail.com">Email me</a></h5>
 		</div>
-	</body>
+	      </div>
+
+	      <div class="col s12 m4">
+		<div class="icon-block">
+		  <h2 class="center teal-text text-lighten-2"><i class="material-icons">apps</i></h2>
+		  <h5 class="center"><a class="black-text" href="https://github.com/hexmonad">My github page</a></h5>
+		</div>
+	      </div>
+
+	      <div class="col s12 m4">
+		<div class="icon-block">
+		  <h2 class="center teal-text text-lighten-2"><i class="material-icons">group</i></h2>
+		  <h5 class="center">My other contacts</h5>
+
+		  <p class="light center">
+		    <a class="black-text" href="#!">Facebook</a>, 
+		    <a class="black-text" href="#!">Twitter</a>, 
+		    <a class="black-text" href="#!">Skype</a></p>
+		</div>
+	      </div>
+	      
+	    </div>
+
+	  </div>
+	  
+	  <br><br>
+	</div>
+  
+	<footer class="page-footer white">
+	    <div class="container row center">
+		<a href="#!" id="blog-open" class="btn waves-effect waves-light teal">Go to blog</a>
+	    </div>
+	</footer>
+	
+	<!--  Scripts-->
+	<!--Import jQuery before materialize.js-->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="bower_components/Materialize/dist/js/materialize.min.js"></script>
+	
+    </body>
 </html>

@@ -1,0 +1,19 @@
+{
+  "name": "hexmonad.github.io",
+  "version": "0.0.1",
+  "homepage": "https://github.com/hexmonad/hexmonad.github.io",
+  "authors": [
+    "HexMonad <hexmonad@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
