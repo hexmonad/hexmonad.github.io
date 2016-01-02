@@ -17,6 +17,7 @@
     "tests"
   ],
   "dependencies": {
-    "Materialize": "materialize#~0.97.5"
+    "Materialize": "materialize#~0.97.5",
+    "bootstrap": "~3.3.6"
   }
 }

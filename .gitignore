@@ -5,3 +5,8 @@ bower_components/*
 !bower_components/Materialize
 bower_components/Materialize/*
 !bower_components/Materialize/dist
+
+# unignore Bootstrap folder
+!bower_components/bootstrap
+bower_components/bootstrap/*
+!bower_components/bootstrap/dist
